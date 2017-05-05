@@ -17,7 +17,7 @@ let FilmCardComponent = class FilmCardComponent {
         this.filmList = [];
     }
     ngOnInit() {
-        this.filmName = "Matrix";
+        this.filmName = "Forsage";
         this.getFilms();
     }
     getFilms() {

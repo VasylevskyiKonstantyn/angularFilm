@@ -15,7 +15,7 @@ export class FilmCardComponent implements OnInit {
 
   ngOnInit() {
 
-    this.filmName = "Matrix"
+    this.filmName = "Forsage"
     this.getFilms();
   }
 

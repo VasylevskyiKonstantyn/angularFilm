@@ -18,7 +18,7 @@ let FilmCardService = class FilmCardService {
     }
     extractData(res) {
         let body = res.json();
-        return body.Search || {};
+        return body.Search;
     }
     getFilms(filmName) {
         return this.http.get(this.url + filmName).map(this.extractData);

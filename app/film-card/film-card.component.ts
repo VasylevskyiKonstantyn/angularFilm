@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {FilmCardService} from './film-card.service'
 
+
 @Component({
+
   selector: 'appfilmcard',
   templateUrl: 'app/film-card/film-card.component.html',
   styleUrls: ['app/film-card/film-card.component.css']
@@ -13,7 +15,7 @@ export class FilmCardComponent implements OnInit {
 
   ngOnInit() {
 
-    this.filmName = "Matrix"
+    this.filmName = "Fors"
     this.getFilms();
   }
 
